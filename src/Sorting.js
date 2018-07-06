@@ -47,11 +47,7 @@ function menu(choice)
 {
 	var result; 
 	
-	if(choice===null)
-	{
-		return (0);
-	}
-	else if(choice==1)
+	if(choice==1)
 	{
 		result=insertionSort([4,6,5,3,7,9]);
 		return (result);
