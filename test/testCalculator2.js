@@ -33,3 +33,4 @@ QUnit.test( "Testing Square", function( assert ) {
 	   assert.equal( result, "9", "square(3) is 9." );
 	});
 
+
